@@ -1,10 +1,32 @@
 import React from "react";
 
 import { Form, Field, FormRenderProps } from "react-final-form";
+import _ from "lodash";
 
 export const BasicComponent: React.FunctionComponent = () => {
   const required = (value: string) => (value ? undefined : "Required");
 
+  const getProps = (props: FormRenderProps) => {
+    return _.pickBy(props, (value: any, key: string) => {
+      const fieldsIWantToSee = [
+        "active",
+        "dirty",
+        "dirtyFields",
+        "dirtySinceLastSubmit",
+        "dirtyFieldsSinceLastSubmit",
+        "errors",
+        "hasValidationErrors",
+        "initialValues",
+        "invalid",
+        "modified",
+        "pristine",
+        "touched",
+        "valid",
+        "visited"
+      ];
+      return fieldsIWantToSee.includes(key);
+    });
+  };
   return (
     <Form
       onSubmit={formObject => console.log(formObject)}
@@ -31,7 +53,7 @@ export const BasicComponent: React.FunctionComponent = () => {
           >
             Submit
           </button>
-          <pre>{JSON.stringify(props, null, "\t")}</pre>
+          <pre>{JSON.stringify(getProps(props), null, "\t")}</pre>
         </form>
       )}
     </Form>
