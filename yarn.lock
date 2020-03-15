@@ -6198,68 +6198,68 @@ jsprim@^1.2.2:
     verror "1.10.0"
 
 jss-plugin-camel-case@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss-plugin-camel-case/-/jss-plugin-camel-case-10.1.0.tgz#67102c6faea71181d9e3b2774ec71fa18cd0de92"
-  integrity sha512-w3RSXMvQ+aHGTqCKzddIzi372rnwmmZp2FAbD5kSpva2EbmbBhEgS13LjTpO8UAsMFUCfivjpFbePYmA+Km5NQ==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss-plugin-camel-case/-/jss-plugin-camel-case-10.1.1.tgz#8e73ecc4f1d0f8dfe4dd31f6f9f2782588970e78"
+  integrity sha512-MDIaw8FeD5uFz1seQBKz4pnvDLnj5vIKV5hXSVdMaAVq13xR6SVTVWkIV/keyTs5txxTvzGJ9hXoxgd1WTUlBw==
   dependencies:
     "@babel/runtime" "^7.3.1"
     hyphenate-style-name "^1.0.3"
-    jss "10.1.0"
+    jss "10.1.1"
 
 jss-plugin-default-unit@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss-plugin-default-unit/-/jss-plugin-default-unit-10.1.0.tgz#4b5fe4be04858761a5541ffb7bb067a4b638ab6b"
-  integrity sha512-WE+AKESXIoXluY1G9prFVoHVindxh4VIDZROfgOQRsgKp/29F6yN38z4Dq8N7XuynsNqqPbwd4wafZGDr2NmAg==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss-plugin-default-unit/-/jss-plugin-default-unit-10.1.1.tgz#2df86016dfe73085eead843f5794e3890e9c5c47"
+  integrity sha512-UkeVCA/b3QEA4k0nIKS4uWXDCNmV73WLHdh2oDGZZc3GsQtlOCuiH3EkB/qI60v2MiCq356/SYWsDXt21yjwdg==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    jss "10.1.0"
+    jss "10.1.1"
 
 jss-plugin-global@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss-plugin-global/-/jss-plugin-global-10.1.0.tgz#b20aba1bebaace05cb80762ad1a7bf3fe6d72635"
-  integrity sha512-rDEFTxCjRsZ5LO349MJMwrDjSTnyCocc7nM5k2DgmGIBQyJI17aBT30RsN1IdoDfaBHFczrow1O6gf1H4g6Xww==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss-plugin-global/-/jss-plugin-global-10.1.1.tgz#36b0d6d9facb74dfd99590643708a89260747d14"
+  integrity sha512-VBG3wRyi3Z8S4kMhm8rZV6caYBegsk+QnQZSVmrWw6GVOT/Z4FA7eyMu5SdkorDlG/HVpHh91oFN56O4R9m2VA==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    jss "10.1.0"
+    jss "10.1.1"
 
 jss-plugin-nested@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss-plugin-nested/-/jss-plugin-nested-10.1.0.tgz#caee8ec30dc2a6cce3a868b2135563388519ab0f"
-  integrity sha512-T1kELdDJf3e4oi/ZNPTsb1Ws7ouAkp6lhhHMDPNC//bhqu+wUjZO5Wcw7DIL2BW/z2nSRA8tw1U/1yKndUH1ow==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss-plugin-nested/-/jss-plugin-nested-10.1.1.tgz#5c3de2b8bda344de1ebcef3a4fd30870a29a8a8c"
+  integrity sha512-ozEu7ZBSVrMYxSDplPX3H82XHNQk2DQEJ9TEyo7OVTPJ1hEieqjDFiOQOxXEj9z3PMqkylnUbvWIZRDKCFYw5Q==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    jss "10.1.0"
+    jss "10.1.1"
     tiny-warning "^1.0.2"
 
 jss-plugin-props-sort@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss-plugin-props-sort/-/jss-plugin-props-sort-10.1.0.tgz#1a2c12872eed6081c0ddd520ec41ad112dcdd445"
-  integrity sha512-NurReUr+vJGa1PpYeK2kBnrc0waZNXpC13J93lt18IuGE6axr2mt5F4JGqNDt5NAmHvN/RPSnwNtmYWVOPbAdQ==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss-plugin-props-sort/-/jss-plugin-props-sort-10.1.1.tgz#34bddcbfaf9430ec8ccdf92729f03bb10caf1785"
+  integrity sha512-g/joK3eTDZB4pkqpZB38257yD4LXB0X15jxtZAGbUzcKAVUHPl9Jb47Y7lYmiGsShiV4YmQRqG1p2DHMYoK91g==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    jss "10.1.0"
+    jss "10.1.1"
 
 jss-plugin-rule-value-function@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss-plugin-rule-value-function/-/jss-plugin-rule-value-function-10.1.0.tgz#9470dadadcd97c478bf98966bffdd371a960e464"
-  integrity sha512-dx8EP//D0yl526zxL/XsS+eqVObKKWEUhfQTYsFJnztP8Kc2Sf7+zeGABK4/iX7HpTkciC/pIPtF3AcnBD10MA==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss-plugin-rule-value-function/-/jss-plugin-rule-value-function-10.1.1.tgz#be00dac6fc394aaddbcef5860b9eca6224d96382"
+  integrity sha512-ClV1lvJ3laU9la1CUzaDugEcwnpjPTuJ0yGy2YtcU+gG/w9HMInD5vEv7xKAz53Bk4WiJm5uLOElSEshHyhKNw==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    jss "10.1.0"
+    jss "10.1.1"
 
 jss-plugin-vendor-prefixer@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.1.0.tgz#06005447380e4cd5c45074a35c182c3d67f3ad23"
-  integrity sha512-4Mqr+A2ViZihBOB/wB7BiGYBOvCL2hBJTOmakuiEyLGohXiZE4P8RMBjoE4/YAizsKyNzFil4kKOun0CavKwBg==
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss-plugin-vendor-prefixer/-/jss-plugin-vendor-prefixer-10.1.1.tgz#8348b20749f790beebab3b6a8f7075b07c2cfcfd"
+  integrity sha512-09MZpQ6onQrhaVSF6GHC4iYifQ7+4YC/tAP6D4ZWeZotvCMq1mHLqNKRIaqQ2lkgANjlEot2JnVi1ktu4+L4pw==
   dependencies:
     "@babel/runtime" "^7.3.1"
     css-vendor "^2.0.7"
-    jss "10.1.0"
+    jss "10.1.1"
 
-jss@10.1.0, jss@^10.0.3:
-  version "10.1.0"
-  resolved "https://registry.yarnpkg.com/jss/-/jss-10.1.0.tgz#ac3e54c8862db5f6ae7d34a82a2cbe5682a69776"
-  integrity sha512-IENSooy1tIlQ+bsDHSfA7sqkJE954sKjCT5183lFdqDloUTXDFGoqjOgTKmRPWD5Ze8InHCgIo6WbBAtgRfOiw==
+jss@10.1.1, jss@^10.0.3:
+  version "10.1.1"
+  resolved "https://registry.yarnpkg.com/jss/-/jss-10.1.1.tgz#450b27d53761af3e500b43130a54cdbe157ea332"
+  integrity sha512-Xz3qgRUFlxbWk1czCZibUJqhVPObrZHxY3FPsjCXhDld4NOj1BgM14Ir5hVm+Qr6OLqVljjGvoMcCdXNOAbdkQ==
   dependencies:
     "@babel/runtime" "^7.3.1"
     csstype "^2.6.5"
