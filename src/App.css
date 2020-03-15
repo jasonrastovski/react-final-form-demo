@@ -2,3 +2,7 @@
   padding: 40px;
   text-align: center;
 }
+
+.App pre {
+  text-align: left;
+}
